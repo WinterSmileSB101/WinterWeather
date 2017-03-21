@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Winter 天气</string>
+
+    <string name="navigation_drawer_open">打开</string>
+    <string name="navigation_drawer_close">关闭</string>
+
+    <string name="action_settings">设置</string>
+    <string name="city">城市：</string>
+    <string name="ProWeather">实况天气：</string>
+    <string name="hintinfo">请输入</string>
+    <string name="search">查询</string>
+    <string name="CurTemper">实况温度：</string>
+    <string name="Temper">温度：</string>
+    <string name="Wind">风力：</string>
+    <string name="Windp">风向：</string>
+    <string name="Humi">湿度：</string>
+    <string name="LastInitTime">最后更新时间：</string>
+    <string name="SupportCityFilePath">CityXML/SupportCity.xml</string>
+    <string name="AllCityFilePath">CityXML/AllCity.xml</string>
+    <string name="GPSLocation">您的位置信息：</string>
+    <string name="gally">图库</string>
+    <string name="camera">照相机</string>
+    <string name="tools">工具</string>
+    <string name="Communicate">联系</string>
+    <string name="share">分享</string>
+    <string name="send">发送</string>
+    <string name="Slideshow">侧滑显示</string>
+    <string name="UNAME">Winter_SmileSB101</string>
+    <string name="UEMAIL">zxb13194889618@outlook.com</string>
+</resources>

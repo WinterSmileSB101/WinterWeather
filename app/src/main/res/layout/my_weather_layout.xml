@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/mian_back_color"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/weatherProLinearLayout">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:text="@string/city"/>
+            <EditText
+                android:id="@+id/SearchCity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="请输入城市或者县镇名称"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/SerachBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/search"
+            android:theme="@style/AppTheme.AppBarOverlay"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/city"
+                android:textSize="20dp"/>
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:text="@string/ProWeather"/>
+            <EditText
+                android:id="@+id/weather"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:text="@string/CurTemper"/>
+            <EditText
+                android:id="@+id/CurTemper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:text="@string/Temper"/>
+            <EditText
+                android:id="@+id/Temper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:text="@string/Humi"/>
+            <EditText
+                android:id="@+id/Humi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:text="@string/Wind"/>
+            <EditText
+                android:id="@+id/Wind"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:text="@string/Windp"/>
+            <EditText
+                android:id="@+id/Windp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:text="@string/LastInitTime"/>
+            <EditText
+                android:id="@+id/LastInitTime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint=""/>
+
+        </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/GPSLocation"
+        android:textSize="20dp"/>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/ShowGPS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+
+</LinearLayout>
